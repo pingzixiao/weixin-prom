@@ -1,0 +1,27 @@
+<!-- 模态框 -->
+<view class='domes_title'>Dialog</view>
+
+
+<view class='ui_nomore'>
+    <text class='ui_nomore_content'>暂无更多</text>
+</view>
+
+<view class='ui_nomore'>
+    <view class='ui_nomore_bit'></view>
+</view>
+
+<view class='ui_btn ui_btn_default' bindtap='prompt'>打开prompt</view>
+<view class='ui_dialog {{prompt?"ui_dialog_visible":""}}'>
+    <view class='ui_dialog_hd'>
+        <view class='ui_dialog_title'>标题</view>
+    </view>
+    <view class='ui_dialog_bd'>
+        <text>名字不能超过6个字符，不得出现不和谐文字</text>
+        <input class='ui_dialog_input'></input>
+    </view>
+    <view class='ui_dialog_ft'>
+        <view class='ui_dialog_cancel' bindtap='prompt'>取消</view>
+        <view class='ui_dialog_sure'>确定</view>
+    </view>
+</view>
+<view class='ui_mask {{prompt?"ui_mask_visible":""}}' bindtap='prompt'></view>

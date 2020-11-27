@@ -1,0 +1,10 @@
+<!-- 按钮 -->
+<view class='domes_title'>Button</view>
+<view class='ui_btn ui_btn_default '>按钮</view>
+<view class='ui_btn ui_btn_default ui-btn_disabled'>按钮</view>
+
+<view class='ui_btn ui_btn_primary '>按钮</view>
+<view class='ui_btn ui_btn_primary ui-btn_disabled'>按钮</view>
+
+<view class='ui_btn ui_btn_warn'>按钮</view>
+<view class='ui_btn ui_btn_warn ui-btn_disabled'>按钮</view>

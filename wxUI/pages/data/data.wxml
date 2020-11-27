@@ -1,0 +1,5 @@
+<view wx:for='{{list}}'  wx:for-index='bindex'  wx:key='{{index}}'  >
+    <view wx:for='{{item.child}}'  data-fid='{{list[bindex].fid}}'  data-id='{{item.id}}'   wx:key='{{index}}'  >
+        {{item.value}}
+    </view>
+</view>

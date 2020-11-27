@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/button/button",
+    "pages/list/list",
+    "pages/form/form",
+    "pages/uploader/uploader",
+    "pages/dialog/dialog",
+    "pages/topTabar/topTabar",
+    "pages/search/search",
+    "pages/flex/flex",
+    "pages/data/data"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weUI",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
