@@ -1,0 +1,77 @@
+<!-- 列表 -->
+<view class='domes_title'>List</view>
+<!-- 标题 -->
+<view class='ui_cell'>
+    <view class='ui_cell_bd'>标题</view>
+</view>
+<!-- 标题+说明 -->
+<view class='ui_cell'>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_ft'>说明</view>
+</view>
+<!-- 图标+标题+说明 -->
+<view class='ui_cell'>
+    <view class='ui_cell_hd'>
+        <image src='../../image/icon_nav_button.png'></image>
+    </view>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_ft'>说明</view>
+</view>
+
+<!-- 标题+跳转 -->
+<view class='ui_cell'>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_right'></view>
+</view>
+
+<view class='ui_cell'>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_ft'>说明</view>
+    <view class='ui_cell_right'></view>
+</view>
+
+<view class='ui_cell'>
+    <view class='ui_cell_hd'>
+        <image src='../../image/icon_nav_button.png'></image>
+    </view>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_ft'>说明</view>
+    <view class='ui_cell_right'></view>
+</view>
+<!-- 左滑删除 -->
+<view class='ui_cell {{toLeft?"ui_cell_toLeft":""}}  {{toRight?"ui_cell_toRight":""}}' bindtouchstart='start' bindtouchmove='move'>
+    <view class='ui_cell_hd'>
+        <image src='../../image/icon_nav_button.png'></image>
+    </view>
+    <view class='ui_cell_bd'>标题</view>
+    <view class='ui_cell_ft'>左滑删除</view>
+    <view class='ui_cell_del'>删除</view>
+    <view class='ui_cell_cancel'>取消</view>
+</view>
+<!-- panel -->
+<view class='ui_panel'>
+    <view class='ui_panel_hd'>
+        <image></image>
+    </view>
+    <view class='ui_panel_bd'>
+        <view>标题一</view>
+        <view class='eColor size9 limit2'>由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+    </view>
+</view>
+<!-- goods -->
+<view class='ui_goods'>
+    <view class="goodsItem">
+        <view class="goodsImg">
+            <image src="https://cbu01.alicdn.com/img/ibank/2018/987/213/8998312789_1068614786.220x220.jpg" alt=""></image>
+        </view>
+        <view class="goodsTitle size9">男气垫跑步鞋男女同款情侣 潮 2698白色皮面 382698白色皮面</view>
+        <view class="goodsPrice size9">￥123.00</view>
+    </view>
+    <view class="goodsItem">
+        <view class="goodsImg">
+            <image src="https://cbu01.alicdn.com/img/ibank/2018/987/213/8998312789_1068614786.220x220.jpg" alt=""></image>
+        </view>
+        <view class="goodsTitle size9">男气垫跑步鞋男女同款情侣 潮 2698白色皮面 382698白色皮面</view>
+        <view class="goodsPrice size9">￥123.00</view>
+    </view>
+</view>

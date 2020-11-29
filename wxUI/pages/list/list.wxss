@@ -1,0 +1,35 @@
+/* pages/list/list.wxss */
+.ui_goods{
+    width: 100%;
+	padding: 10rpx 0 0 10rpx;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+}
+.goodsItem{
+	background: #fff;
+	width: 48%;
+	margin-bottom: 10rpx;
+    margin-right: 2%;
+	box-sizing: border-box;
+}
+.goodsImg{
+	width: 100%;
+	height: 375rpx;
+}
+.goodsImg image{
+	width: 100%;
+	height: 100%;
+}
+.goodsTitle{
+	/* height: 60rpx; */
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	padding: 10rpx 10rpx 0 10rpx;
+}
+.goodsPrice{
+	padding: 10rpx;
+}
