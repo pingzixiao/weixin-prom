@@ -1,0 +1,11 @@
+<!-- 九宫格 -->
+<view class='domes_title'>Demos</view>
+
+<view class='ui_flex'>
+    <view class='ui_flex_item' wx:for="{{itemList}}" wx:key="{{index}}" data-url="{{item.url}}" bindtap='chooseItem'>
+        <view class='ui_flex_content'>
+            <image src='../../image/icon_nav_button.png'></image>
+            <view>{{item.title}}</view>
+        </view>
+    </view>
+</view>
