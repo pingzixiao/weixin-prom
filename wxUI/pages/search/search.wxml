@@ -1,0 +1,6 @@
+<view class='ui_searchBox'>
+    <view class='ui_search'>
+        <icon size='15' type='search' class='ui_searchIcon'></icon>
+        <input class='ui_searchInput' type='text' bindconfirm='search' placeholder='请输入关键字'></input>
+    </view>
+</view>
