@@ -1,0 +1,4 @@
+<view class='numInfo'>
+  <view class='showNum' wx:if="{{showNum}}">{{num + 's'}}</view>
+  <view class='numsize' bindtap="Numdown" wx:if="{{showName}}">{{name}}  </view>
+</view>
